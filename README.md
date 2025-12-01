@@ -6,14 +6,9 @@ End-to-End Machine Learning Pipeline using Heart Disease UCI Dataset (Data Clean
 This project builds a complete end-to-end **Machine Learning pipeline** to predict the presence of heart disease using the **Heart Disease UCI** dataset.
 
 It includes:
-
-✔ Data cleaning
-✔ Exploratory data analysis (EDA)
-✔ Feature engineering
-✔ Model training (Logistic Regression & Random Forest)
-✔ Model evaluation
-✔ Saving the final model
-✔ API deployment using **FastAPI**
+    Data cleaning, Exploratory data analysis (EDA), Feature engineering
+    Model training (Logistic Regression & Random Forest), Model evaluation
+    Saving the final model, API deployment using **FastAPI**
 
 # **1. Dataset Used**
 
