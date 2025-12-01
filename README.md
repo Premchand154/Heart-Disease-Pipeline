@@ -19,16 +19,16 @@ It includes:
 **Target:** `num` (converted to binary: 0 = no disease, 1 = disease)
 
 # **2. Data Cleaning Steps**
-1.Removed `id` column.
-2.Converted datatypes.
+*Removed `id` column.
+*Converted datatypes.
     * sex → Male/Female → 1/0.
     * fbs & exang → True/False → 1/0.
-3.Missing value handling.
+*Missing value handling.
     * Numerical: Median imputation.
     * Categorical: Mode imputation.
-4.Duplicate removal.
-5.Outlier removal using IQR(removed ~218 rows).
-6.Target binarization.
+*Duplicate removal.
+*Outlier removal using IQR(removed ~218 rows).
+*Target binarization.
     num = 0 → No disease.
     num = 1,2,3,4 → Disease.
 
