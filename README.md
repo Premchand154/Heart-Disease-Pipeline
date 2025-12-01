@@ -56,17 +56,17 @@ Key plots include:
 10. Scatterplots show diseased patients cluster at high oldpeak and low thalch.
 
 # **4. Feature Engineering**
-        1.One-Hot Encoding
-                 Applied to: cp, restecg, slope, thal, dataset
-        2.Label Encoding
-                 sex, fbs, exang → numeric
-        3.Standardization
-                 Applied to all numerical features
-        4.Created new feature
-               **Heart Rate Reserve (HRR):**
-                           HRR = 220 - age - thalch 
-        5.Final Preprocessor
-                 Built using **ColumnTransformer** + **Pipeline**
+1. One-Hot Encoding
+      Applied to: cp, restecg, slope, thal, dataset
+2. Label Encoding
+      sex, fbs, exang → numeric
+3. Standardization
+      Applied to all numerical features
+4. Created new feature
+     **Heart Rate Reserve (HRR):**
+          HRR = 220 - age - thalch 
+5. Final Preprocessor
+     Built using **ColumnTransformer** + **Pipeline**
 
 # **5. Model Training**
 
