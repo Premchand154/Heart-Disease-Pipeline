@@ -18,8 +18,6 @@ It includes:
 **Features:** 15 (mixed categorical + numerical)
 **Target:** `num` (converted to binary: 0 = no disease, 1 = disease)
 
----
-
 # **2. Data Cleaning Steps**
      1.Removed `id` column
      2.Converted datatypes
@@ -31,11 +29,9 @@ It includes:
      4.Duplicate removal
      5.Outlier removal using IQR(removed ~218 rows)
      6.Target binarization
-     ```
        num = 0 → No disease
       num = 1,2,3,4 → Disease
-```
-    
+
 # **3. Exploratory Data Analysis**
 
 Key plots include:
@@ -59,8 +55,6 @@ Key plots include:
 9. oldpeak (0.45) has the highest positive correlation with disease.
 10. Scatterplots show diseased patients cluster at high oldpeak and low thalch.
 
----
-
 # **4. Feature Engineering**
         1.One-Hot Encoding
                  Applied to: cp, restecg, slope, thal, dataset
@@ -74,8 +68,6 @@ Key plots include:
         5.Final Preprocessor
                  Built using **ColumnTransformer** + **Pipeline**
 
----
-
 # **5. Model Training**
 
 Two models trained:
@@ -85,7 +77,6 @@ Two models trained:
 
 Both models used a **Pipeline** containing preprocessing steps.
 
----
 
 # **6. Model Evaluation**
 
