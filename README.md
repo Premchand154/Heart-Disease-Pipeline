@@ -183,7 +183,7 @@ uvicorn main:app --reload
 
 Add after pushing:
 
-👉 **[https://github.com/your-username/heart-disease-ml-pipeline](https://github.com/your-username/heart-disease-ml-pipeline)**
+**[https://github.com/your-username/heart-disease-ml-pipeline](https://github.com/your-username/heart-disease-ml-pipeline)**
 
 
 
