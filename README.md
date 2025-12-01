@@ -97,7 +97,7 @@ Both models used a **Pipeline** containing preprocessing steps.
 Model saved as:
      models/heart_disease_lr.pkl
 
-# **8. Challenges & Learnings**
+# **7. Challenges & Learnings**
 
 ### **Challenges**
 
@@ -117,7 +117,7 @@ Model saved as:
 
 ---
 
-# **9. How to Run This Project Locally**
+# **8. How to Run This Project Locally**
 
 ### 1. Clone repository
 
@@ -132,14 +132,7 @@ cd heart-disease-ml-pipeline
 pip install -r requirements.txt
 ```
 
-### 3. Start FastAPI
-
-```bash
-cd api
-uvicorn main:app --reload
-```
-
-# **10. Repository Link**
+# **9. Repository Link**
 
 Add after pushing:
 
