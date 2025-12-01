@@ -8,7 +8,7 @@ This project builds a complete end-to-end **Machine Learning pipeline** to predi
 It includes:
     Data cleaning, Exploratory data analysis (EDA), Feature engineering
     Model training (Logistic Regression & Random Forest), Model evaluation
-    Saving the final model, API deployment using **FastAPI**
+    Saving the final model.
 
 # **1. Dataset Used**
 
@@ -96,46 +96,6 @@ Both models used a **Pipeline** containing preprocessing steps.
 
 Model saved as:
      models/heart_disease_lr.pkl
-
-# **7. FastAPI Deployment**
-
-The model is deployed using **FastAPI**.
-
-### **Start the server**
-
-```bash
-uvicorn main:app --reload
-```
-
-### **POST /predict example input**
-
-```json
-{
-  "age": 50,
-  "trestbps": 130,
-  "chol": 250,
-  "thalch": 150,
-  "oldpeak": 1.5,
-  "ca": 0,
-  "sex": 1,
-  "cp": "asymptomatic",
-  "restecg": "normal",
-  "slope": "flat",
-  "thal": "normal",
-  "dataset": "Cleveland",
-  "exang": 0,
-  "fbs": 0
-}
-```
-
-### **Output**
-
-```json
-{
-  "prediction": 1,
-  "probability_of_disease": 0.78
-}
-```
 
 # **8. Challenges & Learnings**
 
